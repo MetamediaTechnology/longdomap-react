@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState, ReactNode, cloneElement } from "react";
-import { LongdoMarkerProps } from "longdomap-type";
+import { LongdoMarkerProps, Map } from "longdomap-type";
 import { LongdoGeometryProps } from "./components/LongdoGeometry";
 import { LongdoPopupProps } from "./components/LongdoPopup";
 
@@ -13,7 +13,7 @@ export interface LongdoMapProps {
      * A callback function that receives the Longdo map object once it is ready.
      * This can be used to interact with the map after it has been initialized.
      */
-    mapObj?: (map: any) => void;
+    mapObj?: (map: Map) => void;
     /**
      * The initial location of the map, specified by longitude and latitude.
      * Default is set to Bangkok, Thailand.
