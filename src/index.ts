@@ -4,7 +4,11 @@ export * from "./components/LongdoGeometry";
 export * from "./components/LongdoPopup";
 export * from "./components/LongdoLayer";
 export * from "./components/LongdoTag";
-export * from "./interface/Map";
-export * from "./interface/Event";
 export * from "./utils/Overlays";
 export * from "./utils/Layer";
+export type {
+  Map as LongdoMapInstance,
+  EventName as LongdoEventName,
+  LongdoMarkerProps,
+  PopupOptions,
+} from "longdomap-type";

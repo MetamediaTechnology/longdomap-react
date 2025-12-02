@@ -1,6 +1,6 @@
 {
   "name": "longdomap-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React component for integrating Longdo Map into your applications.",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -34,8 +34,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bankjirapan/longdomap-react.git"
+    "url": "https://github.com/MetamediaTechnology/longdomap-react.git"
   },
+  "bugs": {
+    "url": "https://github.com/MetamediaTechnology/longdomap-react/issues"
+  },
+  "homepage": "https://map.longdo.com/docs3/react-native/getting-start",
   "keywords": [
     "react",
     "longdo",
@@ -45,5 +49,8 @@
   ],
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "longdomap-type": "^1.0.0"
+  }
 }

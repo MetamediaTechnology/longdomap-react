@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { LongdoMarkerProps } from "../interface/Marker";
+import { LongdoMarkerProps } from "longdomap-type";
 
 
 export const Marker: React.FC<LongdoMarkerProps> = ({
