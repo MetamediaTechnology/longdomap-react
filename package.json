@@ -45,5 +45,8 @@
   ],
   "files": [
     "dist"
-  ]
+  ],
+  "dependencies": {
+    "longdomap-type": "^1.0.0"
+  }
 }

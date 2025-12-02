@@ -1,5 +1,5 @@
-import { Geometry } from "../interface/Geometry";
-import { PopupOptions } from "../interface/Popup";
+import { Geometry } from "longdomap-type";
+import { PopupOptions } from "longdomap-type";
 
 interface LongdoMarkerProps {
   title?: string;
