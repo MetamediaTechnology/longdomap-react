@@ -55,7 +55,7 @@ Here's a basic example of how to use `longdomap-react`:
 
 ```jsx
 import React from 'react';
-import { LongdoMap, Marker } from 'longdomap-react';
+import { LongdoMap, Marker, Map } from 'longdomap-react';
 
 function App() {
   return (
@@ -63,10 +63,14 @@ function App() {
       <LongdoMap
         apiKey={"YOUR_LONGDO_MAP_API_KEY"}
         location={{ lon: 100.5018, lat: 13.7563 }}
+        mapObj={(map: Map) => {
+               map.language("en")
+          }}
         zoom={10}
       >
         <Marker position={{ lon: 100.5018, lat: 13.7563 }} />
       </LongdoMap>
+      
     </div>
   );
 }
