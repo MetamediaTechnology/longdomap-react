@@ -2,6 +2,10 @@
 
 ## [Published]
 
+  1.0.8
+
+- fix: export map types
+
   1.0.1
 
 - feat: add missing properties to Map interface

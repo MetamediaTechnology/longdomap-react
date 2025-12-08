@@ -19,7 +19,6 @@ export type {
   LocationMode,
   LongdoGlobal,
   LongdoLayers,
-  LongdoMap,
   LongdoMarkerProps,
   MarkerOptions,
   PopupOptions,
