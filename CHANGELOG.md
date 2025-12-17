@@ -2,6 +2,10 @@
 
 ## [Published]
 
+  1.0.9
+
+- fix: export LineStyle type
+
   1.0.8
 
 - fix: export map types

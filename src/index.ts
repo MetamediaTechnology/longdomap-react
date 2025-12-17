@@ -9,14 +9,11 @@ export * from "./utils/Layer";
 export type {
   Map,
   OverlaysClickEvent,
-  EventName,
   GeoJSONFeature,
   CSSColor,
   Geometry,
   GeoJSONGeometry,
-  LineStyle,
   Location,
-  LocationMode,
   LongdoGlobal,
   LongdoLayers,
   LongdoMarkerProps,
@@ -24,3 +21,5 @@ export type {
   PopupOptions,
   Range
 } from "longdomap-type";
+
+export { EventName, LocationMode, LineStyle} from 'longdomap-type' 
